@@ -1,0 +1,44 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Happy Monkey", system-ui;
+}
+
+h3 {
+  font-family: "Handlee", cursive;
+}
+
+.sc-body {
+  display: flex;
+  flex-direction: column;
+  max-width: 100vw;
+  background-color: green;
+}
+
+.st-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-height: 10vh;
+  width: 100%;
+  position: fixed;
+
+  /* Estilo */
+  background-color: #fff;
+}
+
+.st-header h1 {
+  padding-left: 6em;
+}
+
+.st-nav {
+  display: flex;
+  flex-direction: row;
+}
