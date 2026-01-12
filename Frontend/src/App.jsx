@@ -1,10 +1,10 @@
 // Estilização
-  import './App.css'
+import './App.css'
 //.
 
 // Componentes e React
-  import { useState } from 'react'
-  import { portfolioItems } from './data'
+import { useState } from 'react'
+import { portfolioItems } from './data'
 //.
 
 // Imagem
@@ -31,9 +31,9 @@ function App() {
         <header className='st-header'>
           <h1>Rafael Areias</h1>
           <nav className='st-nav'>
-            <h3>Portfólio</h3>
-            <h3>Sobre</h3>
-            <h3>Contato</h3>
+            <a href="#portfolio">Portfólio</a>
+            <a href="#sobre">Sobre</a>
+            <a href='https://www.instagram.com/maxlmos' target='_blank'>Contato</a>
           </nav>
         </header>
 
@@ -47,12 +47,12 @@ function App() {
 
             <section className='st-buttons'>
               <a href="#portfolio" className='st-button1'>Ver Trabalhos</a>
-              <a className='st-button2'>Entrar em Contato</a>
+              <a href='https://www.instagram.com/maxlmos' className='st-button2'>Entrar em Contato</a>
             </section>
 
           </section>
           <i class="fa-solid fa-arrow-down"></i>
-        
+
         </main>
 
         <hr />
@@ -72,7 +72,7 @@ function App() {
           </section>
 
           <section className='st-galeria'>
-          
+
             {Object.values(portfolioItems).map((item) => {
               if (categoriaAtual === 'todos' || item.categoria === categoriaAtual) {
                 return (
@@ -93,33 +93,54 @@ function App() {
 
         <hr />
 
-        <section className='st-sobre'>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97h5PsMDsjpHqK3_jSbKU2OS1VMQVsKYAzg&s" alt="Foto do Artista" />
-            <article className='st-infoSobre'>
-              <section>
-                <h5>Sobre o Artista</h5>
-                <article>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Especializado em desenhos a lápis, carvão e tinta.</p>
-                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Cada peça é criada com atenção aos detalhes e paixão pela arte.</p>
-                </article>
-              </section>
+        <section id='sobre' className='st-sobre'>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97h5PsMDsjpHqK3_jSbKU2OS1VMQVsKYAzg&s" alt="Foto do Artista" />
+          <article className='st-infoSobre'>
+            <section>
+              <h5>Sobre o Artista</h5>
+              <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Especializado em desenhos a lápis, carvão e tinta.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Cada peça é criada com atenção aos detalhes e paixão pela arte.</p>
+              </article>
+            </section>
 
-              <section>
-                <h6>Técnicas</h6>
-                <section className='st-sobreTecnicas'>
-                  <p>Carvão</p>
-                  <p>Aquarela</p>
-                  <p>Chiaroescuro</p>
-                </section>
+            <section>
+              <h6>Técnicas</h6>
+              <section className='st-sobreTecnicas'>
+                <p>Carvão</p>
+                <p>Aquarela</p>
+                <p>Chiaroescuro</p>
               </section>
+            </section>
 
-              <section className='st-sobreExperiencias'>
-                <h6>Experiências</h6>
-                <p>Apenas trabalhos pessoais.</p>
-              </section>
+            <section className='st-sobreExperiencias'>
+              <h6>Experiências</h6>
+              <p>Apenas trabalhos pessoais.</p>
+            </section>
 
-            </article>
+          </article>
         </section>
+
+        <hr />
+
+        <footer className='st-footer'>
+
+          <section className='st-footerArticle'>
+            <section className='st-footerInfo'>
+              <h1>Rafael Areias Solimeo</h1>
+              <p>Ilustrador e desenhista profissional.</p>
+              <p>Criando arte única desde 2020.</p>
+            </section>
+
+            <section className="st-footerContato">
+              <h1>Informações de Contato</h1>
+              <p>rafaelareias@email.com</p>
+              <p>+55 11 91234-5678</p>
+            </section>
+          </section>
+
+          <p className='st-footerDA'>© 2026 Rafael Areias. Todos os direitos reservados.</p>
+        </footer>
 
       </section>
     </>

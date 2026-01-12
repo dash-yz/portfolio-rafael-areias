@@ -96,8 +96,10 @@ hr {
   padding-right: 10em;
 }
 
-.st-nav h3 {
+.st-nav a {
   font-size: 1.25em;
+  color: #000;
+  font-family: 'Handlee', cursive;
 }
 
 .st-main {
@@ -359,4 +361,77 @@ hr {
 .st-sobreExperiencias p {
   border-left: 2px solid #00000098;
   padding-left: 1em;
+}
+
+.st-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+  width: 100%;
+  background-color: #0f111c;
+  padding-top: 2em;
+}
+
+.st-footer h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Lusitana', serif;
+  font-size: 1.4em;
+}
+
+.st-footerArticle {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.st-footerInfo {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.st-footerInfo p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lusitana', serif;
+  font-size: 1em;
+  color: #fff;
+  align-self: flex-start;
+}
+
+.st-footerContato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  gap: 0.5em;
+}
+
+.st-footerContato p {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lusitana', serif;
+  font-size: 1em;
+  color: #fff;
+  align-self: flex-start;
+  border-left: 2px solid #fff;
+  padding-left: 1em;
+}
+
+.st-footerDA {
+  color: #fff;
+  font-family: 'Lusitana', serif;
+  font-size: 0.9em;
+  margin-top: 1em;
 }
