@@ -1,6 +1,6 @@
 # Portfolio - Rafael Areias
 
-![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+![Sujeito a Alterações](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=BLUE&style=for-the-badge)
 
 Bem-vindo ao repositório do site de portfólio para artistas! Este projeto foi desenvolvido para apresentar projetos de um amigo, suas habilidades e experiências profissionais.
 
