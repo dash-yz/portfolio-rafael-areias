@@ -47,7 +47,7 @@ function App() {
 
             <section className='st-buttons'>
               <a href="#portfolio" className='st-button1'>Ver Trabalhos</a>
-              <a href='https://www.instagram.com/maxlmos' className='st-button2'>Entrar em Contato</a>
+              <a href='https://www.instagram.com/maxlmos' target='_blank' className='st-button2'>Entrar em Contato</a>
             </section>
 
           </section>
