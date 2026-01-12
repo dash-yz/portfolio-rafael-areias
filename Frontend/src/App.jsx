@@ -52,7 +52,10 @@ function App() {
 
           </section>
           <i class="fa-solid fa-arrow-down"></i>
+        
         </main>
+
+        <hr />
 
         <section id='portfolio' className='st-portfolio'>
 
@@ -86,6 +89,36 @@ function App() {
             })}
           </section>
 
+        </section>
+
+        <hr />
+
+        <section className='st-sobre'>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS97h5PsMDsjpHqK3_jSbKU2OS1VMQVsKYAzg&s" alt="Foto do Artista" />
+            <article className='st-infoSobre'>
+              <section>
+                <h5>Sobre o Artista</h5>
+                <article>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Especializado em desenhos a lápis, carvão e tinta.</p>
+                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Cada peça é criada com atenção aos detalhes e paixão pela arte.</p>
+                </article>
+              </section>
+
+              <section>
+                <h6>Técnicas</h6>
+                <section className='st-sobreTecnicas'>
+                  <p>Carvão</p>
+                  <p>Aquarela</p>
+                  <p>Chiaroescuro</p>
+                </section>
+              </section>
+
+              <section className='st-sobreExperiencias'>
+                <h6>Experiências</h6>
+                <p>Apenas trabalhos pessoais.</p>
+              </section>
+
+            </article>
         </section>
 
       </section>
