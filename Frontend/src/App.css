@@ -86,6 +86,8 @@ hr {
 
 .st-header h1 {
   padding-left: 6em;
+  margin: 0;
+  align-self: center;
 }
 
 .st-nav {
