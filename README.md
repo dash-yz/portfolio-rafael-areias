@@ -1,16 +1,22 @@
-# React + Vite
+# Portfolio - Rafael Areias
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bem-vindo ao repositório do site de portfólio para artistas! Este projeto foi desenvolvido para apresentar projetos de um amigo, suas habilidades e experiências profissionais.
 
-Currently, two official plugins are available:
+## 💻 Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este é um site de portfólio desenvolvido para demonstrar projetos desenvolvidos por artistas. O objetivo é fornecer uma visão geral do trabalho, informações sobre o artista e formas de contato.
 
-## React Compiler
+**Funcionalidades principais:**
+* Apresentação pessoal e profissional.
+* Galeria de projetos com categorias e descrições.
+* Seção de contato.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+As seguintes ferramentas foram usadas na construção do projeto:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **[HTML5]** - Estruturação da página
+* **[CSS3]** - Estilização e layout
+* **[JavaScript]** - Interatividade e lógica
+* **[React / Vue / Outro Framework]** _(se aplicável)_
+* **[Git]** - Controle de versão
